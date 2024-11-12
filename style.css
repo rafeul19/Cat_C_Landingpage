@@ -1,0 +1,215 @@
+body {
+    font-family: 'Shippori Mincho B1', serif;
+  }
+  
+  .hero-section,
+  .cta-container {
+    padding: 0 20% 0 20%;
+  }
+  
+  .hero-section {
+    height: 120vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    font-size: 1.2em;
+  }
+  
+  .header-links {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .footer {
+    background-color: #27285c;
+    padding: 3em;
+  }
+  
+  .hero-section {
+    background-color: #132525;
+  }
+  
+  h1,
+  h2,
+  p,
+  a {
+    color: #ffffff;
+  }
+  h1,
+  h2 {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 2.5em;
+    line-height: 1.1em;
+  }
+  
+  button,
+  p {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+  
+  .hero-paragraph {
+    color: #e5e7eb;
+  }
+  
+  .cta-container {
+    background-color: #2b8282;
+  }
+  
+  .hero-image-wrapper {
+    flex: 2 0 0;
+    max-width: 500px;
+  }
+  
+  .hero-image-wrapper img {
+    border-radius: 2em;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hero-text-wrapper {
+    flex: 1;
+  }
+  .hero-content {
+    padding: 5em 0em;
+    margin: auto;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    gap: 3em;
+  }
+  
+  .logo-wrapper img {
+    max-width: 3.5em;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10%;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .card-wrapper {
+    text-align: center;
+  }
+  
+  .card-image-wrapper {
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 0px 7px 17px rgba(0, 0, 0, 0.3);
+  }
+  .card-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-heading {
+    color: black;
+    text-align: center;
+    padding: 2em 0;
+  }
+  
+  .card-section {
+    padding: 0 0 9em 0;
+  }
+  
+  .card-subtext {
+    color: black;
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  
+  .citation,
+  .samurai-definition {
+    color: black;
+  }
+  
+  .quote-container {
+    background-color: #27285c21;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0;
+  }
+  
+  .quote-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+  }
+  
+  .citation {
+    text-align: right;
+  }
+  
+  .cta-container {
+    margin: 5em auto;
+    padding: 2em 3em;
+    width: 50%;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: #132525;
+  }
+  
+  h3 {
+    color: white;
+    font-size: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-bottom: 0.3em;
+  }
+  
+  .cta-text-wrapper p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+  
+  .hero-button,
+  .cta-button {
+    background-color: whitesmoke;
+    align-self: center;
+    padding: 0.7em 2em;
+    border-radius: 30px;
+    border-width: 0px;
+    box-shadow: 0px 7px 17px rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+    text-wrap: nowrap;
+  }
+  
+  .hero-button {
+    margin-top: 3em;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    background-color: #132525;
+    background-image: linear-gradient(0deg, #132525, #132525d5), url('footer.jpg');
+    padding: 2em;
+  }
